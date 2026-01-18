@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Geologica:wght,CRSV@100..900,0&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "baloo-bhai-2", 'Arial', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+}
+
+.back img{
+    height: 99%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#workarea{
+    margin: 0px auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    position: relative;
+}
+
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-left img{
+    height: 40px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-left .elem{
+    position: relative;
+    height: 8vw;
+    overflow: hidden;
+    word-spacing: 0.2;
+}
+
+.hero-left .elem h1:first-child{
+    top: 0;
+}
+
+.hero-left .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 0.9;
+    font-family: "Geologica";
+    color: white;
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+.hero-left button{
+    padding: 0.8vw 3vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    font-family: "Geologica";
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    pointer-events: all;
+}
+
+.hero-right{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right p{
+    font-size: 1.1vw;
+    color: white;
+    font-family: "baloo bhai 2";
+    line-height: 1.8;
+}
