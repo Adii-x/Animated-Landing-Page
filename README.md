@@ -2,7 +2,7 @@
 
 A visually engaging Nike-inspired landing page featuring interactive hero animations and dynamic background effects using Shery.js and GSAP.
 
-**Preview the project here:** [Add your link here](#)
+**Preview the project here:** https://animated-landing-page-zeta-nine.vercel.app/
 
 <img width="1919" height="859" alt="image" src="https://github.com/user-attachments/assets/f58e9fb7-45b2-4c19-8a57-3938ce06eccf" />
 
@@ -27,7 +27,7 @@ A visually engaging Nike-inspired landing page featuring interactive hero animat
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/nike-landing-page.git
+git clone https://github.com/Adii-x/Animated-Landing-Page
 
 3. Open index.html in your browser to view the project.
 
